@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   // Deploying to the default github.io/repo-name subpath — remove this
   // once you switch to serving from the custom domain root.
   basePath: "/heartland-accessibility-site",
+  trailingSlash: true,
 };
 
 export default nextConfig;

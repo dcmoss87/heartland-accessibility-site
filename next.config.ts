@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   // Static export — required for GitHub Pages (no Node server available)
   output: "export",
@@ -9,7 +11,7 @@ const nextConfig: NextConfig = {
 
   // Deploying to the default github.io/repo-name subpath — remove this
   // once you switch to serving from the custom domain root.
-  basePath: "/heartland-accessibility-site",
+  basePath: isProd ? "/heartland-accessibility-site" : "",
   trailingSlash: true,
 };
 

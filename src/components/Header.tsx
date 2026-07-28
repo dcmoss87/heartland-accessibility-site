@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { Wordmark } from "./Wordmark";
+import Image from "next/image";
 
 const navLinks: { href: string; label: string; cta?: boolean }[] = [
   { href: "/#about", label: "About" },
@@ -45,9 +46,17 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between gap-4">
         <Link
           href="/"
-          className="min-w-0 text-text no-underline"
+          className="min-w-0 text-text no-underline flex items-center"
           aria-label="Heartland Accessibility — Home"
         >
+          <Image
+            src="/logo.png"
+            alt="Heartland Accessibility logo"
+            width={140}
+            height={80}
+            priority
+            className="h-10 w-auto"
+          />
           <Wordmark />
         </Link>
 

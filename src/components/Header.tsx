@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { Wordmark } from "./Wordmark";
 import Image from "next/image";
+import logo from "@/assets/logo.png";
 
 const navLinks: { href: string; label: string; cta?: boolean }[] = [
   { href: "/#about", label: "About" },
@@ -50,7 +51,7 @@ export function Header() {
           aria-label="Heartland Accessibility — Home"
         >
           <Image
-            src="/logo.png"
+            src={logo}
             alt="Heartland Accessibility logo"
             width={140}
             height={80}

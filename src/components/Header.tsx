@@ -5,6 +5,7 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { Wordmark } from "./Wordmark";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
+import { AnchorLink } from "./AchhorLink";
 
 const navLinks: { href: string; label: string; cta?: boolean }[] = [
   { href: "/#about", label: "About" },
@@ -65,7 +66,7 @@ export function Header() {
           <ul className="flex list-none items-center gap-6" role="list">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <Link
+                <AnchorLink
                   href={link.href}
                   className={
                     link.cta
@@ -74,7 +75,7 @@ export function Header() {
                   }
                 >
                   {link.label}
-                </Link>
+                </AnchorLink>
               </li>
             ))}
           </ul>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { AnchorLink } from "./AchhorLink";
 
 export function Hero() {
   return (
@@ -21,18 +21,18 @@ export function Hero() {
             on.
           </p>
           <div className="flex flex-col flex-wrap gap-4 sm:flex-row">
-            <Link
+            <AnchorLink
               href="/#contact"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-primary bg-primary px-6 py-3 text-sm font-semibold text-white no-underline transition-colors hover:border-primary-hover hover:bg-primary-hover hover:text-white"
             >
               Get a Free Audit
-            </Link>
-            <Link
+            </AnchorLink>
+            <AnchorLink
               href="/#services"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-primary bg-transparent px-6 py-3 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary hover:text-white"
             >
               See Services
-            </Link>
+            </AnchorLink>
           </div>
         </div>
 

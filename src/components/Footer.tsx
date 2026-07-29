@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { AnchorLink } from "./AchhorLink";
 import { Wordmark } from "./Wordmark";
 
 const footerLinks = [
@@ -26,12 +26,12 @@ export function Footer() {
           >
             {footerLinks.map((link) => (
               <li key={link.href}>
-                <Link
+                <AnchorLink
                   href={link.href}
                   className="text-sm text-white/80 no-underline transition-colors hover:text-white"
                 >
                   {link.label}
-                </Link>
+                </AnchorLink>
               </li>
             ))}
           </ul>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { AnchorLink } from "./AchhorLink";
 
 const auditIncludes = [
   "Full site scan — every page",
@@ -88,12 +88,12 @@ export function Services() {
             <p className="m-0 text-base text-text">
               Starting at <strong>$1,000</strong>
             </p>
-            <Link
+            <AnchorLink
               href="/#contact"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-sky bg-transparent px-6 py-3 text-sm font-semibold text-sky no-underline transition-colors hover:bg-sky hover:text-white"
             >
               Request an Audit
-            </Link>
+            </AnchorLink>
           </article>
 
           <article
@@ -133,12 +133,12 @@ export function Services() {
                 </div>
               ))}
             </div>
-            <Link
+            <AnchorLink
               href="/#contact"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-surface bg-surface px-6 py-3 text-sm font-semibold text-primary no-underline transition-colors hover:bg-bg hover:text-primary"
             >
               Find Your Tier
-            </Link>
+            </AnchorLink>
           </article>
 
           <article
@@ -168,12 +168,12 @@ export function Services() {
                 </li>
               ))}
             </ul>
-            <Link
+            <AnchorLink
               href="/#contact"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-sky bg-transparent px-6 py-3 text-sm font-semibold text-sky no-underline transition-colors hover:bg-sky hover:text-white"
             >
               Ask About Add-Ons
-            </Link>
+            </AnchorLink>
           </article>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { Wordmark } from "./Wordmark";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
 import { AnchorLink } from "./AchhorLink";
+import { BUSINESS_NAME } from "@/constants";
 
 const navLinks: { href: string; label: string; cta?: boolean }[] = [
   { href: "/#about", label: "About" },
@@ -49,11 +50,11 @@ export function Header() {
         <Link
           href="/"
           className="min-w-0 text-text no-underline flex items-center"
-          aria-label="Heartland Accessibility — Home"
+          aria-label={`${BUSINESS_NAME} — Home`}
         >
           <Image
             src={logo}
-            alt="Heartland Accessibility logo"
+            alt={`${BUSINESS_NAME} logo`}
             width={140}
             height={80}
             priority

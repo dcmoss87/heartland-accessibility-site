@@ -4,6 +4,7 @@ import { SkipLink } from "@/components/SkipLink";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
+import { BUSINESS_NAME } from "@/constants";
 
 const dmSerif = DM_Serif_Display({
   weight: "400",
@@ -27,13 +28,13 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Heartland Accessibility — Healthcare Accessibility Consulting",
-    template: "%s | Heartland Accessibility",
+    default: `${BUSINESS_NAME} — Healthcare Accessibility Consulting`,
+    template: `${BUSINESS_NAME} | %s`,
   },
   description:
-    "Heartland Accessibility LLC — Healthcare website accessibility consulting combining clinical occupational therapy expertise with frontend engineering. Based in Oklahoma, serving clinics nationwide.",
+    `${BUSINESS_NAME} — Healthcare website accessibility consulting combining clinical occupational therapy expertise with frontend engineering. Based in Oklahoma, serving clinics nationwide.`,
   openGraph: {
-    title: "Heartland Accessibility — Healthcare Accessibility Consulting",
+    title: `${BUSINESS_NAME} — Healthcare Accessibility Consulting`,
     description:
       "Healthcare website accessibility consulting combining clinical OT expertise with frontend engineering.",
     type: "website",

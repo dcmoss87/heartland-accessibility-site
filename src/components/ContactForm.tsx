@@ -1,5 +1,6 @@
 "use client";
 
+import { BUSINESS_NAME, CONTACT_EMAIL } from "@/constants";
 import { FormEvent, useId, useState } from "react";
 
 type FieldErrors = {
@@ -11,7 +12,6 @@ type FieldErrors = {
 
 const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ?? "";
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
-const CONTACT_EMAIL = "hello@heartlandaccessibility.llc";
 
 function isValidEmail(value: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
@@ -84,7 +84,7 @@ export function ContactForm() {
     const data = new FormData(form);
     data.set("access_key", WEB3FORMS_ACCESS_KEY);
     data.set("subject", `New inquiry from ${String(data.get("name") ?? "")}`);
-    data.set("from_name", "Heartland Accessibility website");
+    data.set("from_name", `${BUSINESS_NAME} website`);
 
     setStatus("submitting");
     setStatusMessage("Sending your message...");

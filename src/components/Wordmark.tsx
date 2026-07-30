@@ -14,7 +14,7 @@ export function Wordmark({
 }: WordmarkProps) {
   const heartland = inverse ? "text-white" : "text-primary";
   const accessibility = inverse ? "text-white/80" : "text-subtle";
-
+  console.log(withLlc);
   return (
     <span
       className={`inline-flex flex-col items-center text-center leading-none ${className}`}

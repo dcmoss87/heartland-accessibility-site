@@ -1,5 +1,6 @@
 import { AnchorLink } from "./AchhorLink";
 import { Wordmark } from "./Wordmark";
+import { BUSINESS_NAME } from "@/constants";
 
 const footerLinks = [
   { href: "/#about", label: "About" },
@@ -15,7 +16,7 @@ export function Footer() {
   return (
     <footer className="bg-text px-0 py-12 text-white/80" role="contentinfo">
       <div className="container flex flex-col items-center gap-6 text-center">
-        <Wordmark inverse withLlc className="items-center" />
+        <Wordmark inverse className="items-center" />
         <p className="m-0 max-w-none text-sm text-white/80">
           Healthcare accessibility consulting — Oklahoma and nationwide
         </p>
@@ -37,7 +38,7 @@ export function Footer() {
           </ul>
         </nav>
         <p className="m-0 max-w-none text-xs text-white/70">
-          &copy; {year} Heartland Accessibility LLC. This website is designed to
+          &copy; {year} {BUSINESS_NAME}. This website is designed to
           conform to WCAG 2.1 Level AA standards. Consulting services do not
           constitute legal advice.
         </p>

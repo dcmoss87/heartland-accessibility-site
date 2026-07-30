@@ -1,3 +1,5 @@
+import { BUSINESS_NAME } from "@/constants";
+
 function IconActivity() {
   return (
     <svg
@@ -136,7 +138,7 @@ export function About() {
             you a rulebook.
           </p>
           <p className="mb-0 max-w-[65ch] text-subtle">
-            Heartland Accessibility is based in Oklahoma and serves healthcare
+            {BUSINESS_NAME} is based in Oklahoma and serves healthcare
             clinics and organizations nationwide.
           </p>
         </div>

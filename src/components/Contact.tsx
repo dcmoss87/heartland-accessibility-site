@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/constants";
 import { ContactForm } from "./ContactForm";
 
 export function Contact() {
@@ -29,10 +30,10 @@ export function Contact() {
           </p>
           <div className="mt-8 border-t border-border pt-6">
             <a
-              href="mailto:hello@heartlandaccessibility.llc"
+              href={`mailto:${CONTACT_EMAIL}`}
               className="text-lg font-semibold text-primary underline-offset-[3px] hover:text-primary-hover"
             >
-              hello@heartlandaccessibility.llc
+              {CONTACT_EMAIL}
             </a>
           </div>
         </div>

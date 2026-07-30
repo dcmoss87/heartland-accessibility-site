@@ -1,10 +1,11 @@
+import { CONTACT_EMAIL } from "@/constants";
 import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Accessibility Statement",
   description:
-    "Accessibility statement for Heartland Accessibility LLC — our commitment to WCAG 2.1 Level AA conformance.",
+    "Accessibility statement for Heartland Accessibility — our commitment to WCAG 2.1 Level AA conformance.",
 };
 
 export default function AccessibilityStatementPage() {
@@ -18,7 +19,7 @@ export default function AccessibilityStatementPage() {
           Accessibility Statement
         </h1>
         <p className="mb-4 max-w-[65ch] text-subtle">
-          Heartland Accessibility LLC is committed to ensuring digital
+          Heartland Accessibility  is committed to ensuring digital
           accessibility for people with disabilities. We continually improve the
           user experience for everyone and apply relevant accessibility standards.
         </p>
@@ -39,7 +40,7 @@ export default function AccessibilityStatementPage() {
           conformance: Level A, Level AA, and Level AAA.
         </p>
         <p className="mb-4 max-w-[65ch] text-subtle">
-          Heartland Accessibility LLC aims to conform to{" "}
+          Heartland Accessibility  aims to conform to{" "}
           <strong className="text-text">WCAG 2.1 Level AA</strong>. This website
           has been designed and built with that standard as the baseline.
         </p>
@@ -77,10 +78,10 @@ export default function AccessibilityStatementPage() {
           <li>
             Email:{" "}
             <a
-              href="mailto:hello@heartlandaccessibility.llc"
+              href={`mailto:${CONTACT_EMAIL}`}
               className="font-medium text-sky underline underline-offset-[3px] hover:text-primary"
             >
-              hello@heartlandaccessibility.llc
+              {CONTACT_EMAIL}
             </a>
           </li>
           <li>

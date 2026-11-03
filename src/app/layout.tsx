@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${BUSINESS_NAME} — Healthcare Accessibility Consulting`,
     description:
-      "Healthcare website accessibility consulting combining clinical OT expertise with frontend engineering.",
+      "Healthcare website accessibility consulting combining clinical occupational therapy expertise with frontend engineering.",
     type: "website",
     locale: "en_US",
   },

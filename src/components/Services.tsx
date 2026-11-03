@@ -23,19 +23,19 @@ const tiers = [
     name: "Basic",
     price: "$250–350",
     desc: "Automated monthly monitoring (up to 10 pages) + plain language summary",
-    overage: "+$25/mo per additional 10 pages",
+    overage: "+$25/mo per additional block of up to 10 pages",
   },
   {
     name: "Standard",
     price: "$475–625",
-    desc: "Monthly monitoring (up to 20 pages) + manual testing of up to 5 key pages + detailed report",
-    overage: "+$45/mo per additional 10 pages",
+    desc: "Monthly monitoring (up to 20 pages) + monthly manual testing of up to 5 key pages + brief written report",
+    overage: "+$45/mo per additional block of up to 10 pages",
   },
   {
     name: "Full",
     price: "$800–1,100",
-    desc: "Full monthly audit (up to 35 pages) + unlimited support + ADA complaint help",
-    overage: "+$125/mo per additional 10 pages",
+    desc: "Full monthly audit (up to 35 pages) + unlimited support",
+    overage: "+$125/mo per additional block of up to 10 pages",
   },
 ] as const;
 

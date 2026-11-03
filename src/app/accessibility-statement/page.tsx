@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Accessibility Statement",
   description:
-    "Accessibility statement for Heartland Accessibility — our commitment to WCAG 2.1 Level AA conformance.",
+    "Accessibility statement for Heartland Accessibility LLC — our commitment to WCAG 2.1 Level AA conformance.",
 };
 
 export default function AccessibilityStatementPage() {
@@ -19,7 +19,7 @@ export default function AccessibilityStatementPage() {
           Accessibility Statement
         </h1>
         <p className="mb-4 max-w-[65ch] text-subtle">
-          Heartland Accessibility  is committed to ensuring digital
+          Heartland Accessibility LLC is committed to ensuring digital
           accessibility for people with disabilities. We continually improve the
           user experience for everyone and apply relevant accessibility standards.
         </p>
@@ -40,7 +40,7 @@ export default function AccessibilityStatementPage() {
           conformance: Level A, Level AA, and Level AAA.
         </p>
         <p className="mb-4 max-w-[65ch] text-subtle">
-          Heartland Accessibility  aims to conform to{" "}
+          Heartland Accessibility LLC aims to conform to{" "}
           <strong className="text-text">WCAG 2.1 Level AA</strong>. This website
           has been designed and built with that standard as the baseline.
         </p>

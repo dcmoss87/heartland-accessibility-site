@@ -34,7 +34,7 @@ const tiers = [
   {
     name: "Full",
     price: "$800–1,100",
-    desc: "Full monthly audit (up to 35 pages) + unlimited support",
+    desc: "Full monthly audit (up to 35 pages) + detailed report + unlimited support",
     overage: "+$125/mo per additional block of up to 10 pages",
   },
 ] as const;

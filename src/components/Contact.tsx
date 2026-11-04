@@ -21,12 +21,8 @@ export function Contact() {
           </h2>
           <p className="mb-4 max-w-[65ch] text-subtle">
             I offer a complimentary accessibility audit to a limited number of
-            Oklahoma healthcare clinics each month. No cost, no obligation — just a
-            professional report you can act on.
-          </p>
-          <p className="mb-4 max-w-[65ch] text-subtle">
-            Not in Oklahoma? I work with healthcare organizations nationwide. Reach
-            out and let&apos;s talk about your site.
+            healthcare clinics each month. We'll walk through your top findings together on a 20 minute call. 
+            No cost, no obligation.
           </p>
           <div className="mt-8 border-t border-border pt-6">
             <a

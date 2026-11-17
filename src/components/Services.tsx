@@ -1,7 +1,7 @@
 import { AnchorLink } from "./AchhorLink";
 
 const auditIncludes = [
-  "Full site scan — every page",
+  "Comprehensive audit (up to 15 key pages and templates)",
   "Manual keyboard navigation test",
   "VoiceOver and screen reader test",
   "Clinical impact section for each finding",

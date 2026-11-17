@@ -5,7 +5,7 @@ const reasons = [
   },
   {
     title: "Manual testing catches what automated tools miss",
-    body: "Automated scanners catch roughly 30–40% of real accessibility issues. The rest require a human navigating with a screen reader, testing keyboard flows, and making judgment calls about real patient impact. Every audit includes full manual testing.",
+    body: "Automated scanners catch roughly 30–40% of real accessibility issues. The rest require a human navigating with a screen reader, testing keyboard flows, and making judgment calls about real patient impact. Every audit includes manual keyboard and screen reader testing of your key pages.",
   },
   {
     title: "Developer-ready fix instructions",

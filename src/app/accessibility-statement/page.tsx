@@ -62,9 +62,10 @@ export default function AccessibilityStatementPage() {
           Compatibility
         </h2>
         <p className="mb-4 max-w-[65ch] text-subtle">
-          This website is designed to be compatible with modern browsers and
-          assistive technologies, including VoiceOver, NVDA, and JAWS when used with
-          current versions of Safari, Chrome, Firefox, and Edge.
+        This website uses standard HTML and is designed to work with current versions of major browsers and 
+        assistive technologies. We test it with VoiceOver on macOS using Safari, with keyboard-only navigation, 
+        and with automated tools including WAVE and axe DevTools. We have not tested it with NVDA or JAWS on Windows, 
+        so if you use one of those and run into a barrier, please let us know.
         </p>
 
         <h2 className="mt-10 mb-4 text-2xl font-semibold tracking-[-0.02em] text-text">
@@ -102,7 +103,7 @@ export default function AccessibilityStatementPage() {
           Date
         </h2>
         <p className="mb-0 max-w-[65ch] text-subtle">
-          This statement was last updated on July 14, 2026.
+          This statement was last updated on November 20, 2026.
         </p>
       </article>
     </main>

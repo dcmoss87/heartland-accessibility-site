@@ -11,6 +11,8 @@ const auditIncludes = [
 
 const addOns = [
   // "PDF remediation — $250–600/document", TODO: COME BACK TO THIS
+  "Accessible website build — from $4,500",
+  "Site care plan (edits + updates) — from $150/mo",
   "Accessibility statement drafting — from $300",
   "Developer training — from $1,000",
   "ADA complaint documentation support — from $750",
@@ -67,9 +69,9 @@ export function Services() {
             className="flex flex-col gap-4 rounded-lg border border-border bg-bg p-8"
             aria-labelledby="audit-heading"
           >
-            <div className="font-mono text-xs font-medium tracking-[0.1em] text-sage uppercase">
+            {/* <div className="font-mono text-xs font-medium tracking-[0.1em] text-sage uppercase">
               One-Time
-            </div>
+            </div> */}
             <h3 id="audit-heading" className="mb-0 text-lg font-semibold text-text">
               Accessibility Audit
             </h3>
@@ -103,9 +105,9 @@ export function Services() {
             className="flex flex-col gap-4 rounded-lg border border-primary bg-primary p-8"
             aria-labelledby="retainer-heading"
           >
-            <div className="font-mono text-xs font-medium tracking-[0.1em] text-white uppercase">
+            {/* <div className="font-mono text-xs font-medium tracking-[0.1em] text-white uppercase">
               Most Popular
-            </div>
+            </div> */}
             <h3
               id="retainer-heading"
               className="mb-0 text-lg font-semibold text-white"
@@ -151,15 +153,14 @@ export function Services() {
             className="flex flex-col gap-4 rounded-lg border border-border bg-bg p-8"
             aria-labelledby="addons-heading"
           >
-            <div className="font-mono text-xs font-medium tracking-[0.1em] text-sage uppercase">
+            {/* <div className="font-mono text-xs font-medium tracking-[0.1em] text-sage uppercase">
               Add-Ons
-            </div>
+            </div> */}
             <h3 id="addons-heading" className="mb-0 text-lg font-semibold text-text">
               Additional Services
             </h3>
             <p className="m-0 text-subtle">
-              Targeted services available as standalone projects or add-ons to any
-              retainer.
+             Targeted services available as standalone projects or add-ons to any retainer. Website builds are quoted per project.
             </p>
             <ul
               className="flex list-none flex-col gap-2 pl-4"

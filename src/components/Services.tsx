@@ -135,7 +135,7 @@ export function Services() {
                   <span className="block text-xs leading-snug text-white">
                     {tier.desc}
                   </span>
-                  <span className="block text-xs leading-snug text-white/70">
+                  <span className="block text-xs leading-snug text-white font-bold">
                     {tier.overage}
                   </span>
                 </div>

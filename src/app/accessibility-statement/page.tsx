@@ -103,7 +103,7 @@ export default function AccessibilityStatementPage() {
           Date
         </h2>
         <p className="mb-0 max-w-[65ch] text-subtle">
-          This statement was last updated on November 20, 2026.
+          This statement was last updated on November 24, 2026.
         </p>
       </article>
     </main>

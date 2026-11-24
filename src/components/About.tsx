@@ -94,7 +94,7 @@ const credentials = [
   {
     title: "WCAG 2.1 AA",
     description:
-      "All audits evaluated against the standard used by courts and the DOJ for ADA Title III compliance",
+      "All audits evaluated against the benchmark most commonly used in ADA web accessibility cases and settlements",
     icon: IconShield,
   },
   {

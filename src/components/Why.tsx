@@ -5,7 +5,20 @@ const reasons = [
   },
   {
     title: "Manual testing catches what automated tools miss",
-    body: "Automated scanners catch roughly 30–40% of real accessibility issues. The rest require a human navigating with a screen reader, testing keyboard flows, and making judgment calls about real patient impact. Every audit includes manual keyboard and screen reader testing of your key pages.",
+    body: (
+      <>
+        Automated scanners only flag approximately 25% of WCAG accessibility issues (
+        <a 
+          href="https://accessible.org/wcag-issues-automated-scans-catch/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          accessible.org
+        </a>
+        ). The rest require a human navigating with a screen reader, testing keyboard flows, and making judgment calls about real patient impact. Every audit includes manual keyboard and screen reader testing of your key pages.
+      </>
+    ),
   },
   {
     title: "Developer-ready fix instructions",

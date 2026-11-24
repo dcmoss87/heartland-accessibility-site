@@ -42,11 +42,11 @@ export function Hero() {
         >
           <div className="px-0 py-5 md:flex-1 md:px-6 md:py-0 lg:px-0 lg:py-5 lg:pt-0">
             <span className="mb-2 block font-mono text-3xl font-medium tracking-[-0.02em] text-primary leading-none">
-              <span className="sr-only">96 percent</span>
-              <span aria-hidden="true">96%</span>
+              <span className="sr-only">95.9 percent</span>
+              <span aria-hidden="true">95.9%</span>
             </span>
             <span className="block max-w-[28ch] text-sm leading-snug text-subtle">
-              of healthcare websites have accessibility failures
+              of home pages across the web have detectable accessibility failures <a href="https://webaim.org/projects/million/" className="underline underline-offset-[3px]">WebAIM Million</a>, 2026)
             </span>
           </div>
           <div
@@ -55,11 +55,11 @@ export function Hero() {
           />
           <div className="px-0 py-5 md:flex-1 md:px-6 md:py-0 lg:px-0 lg:py-5">
             <span className="mb-2 block font-mono text-3xl font-medium tracking-[-0.02em] text-primary leading-none">
-              <span className="sr-only">4,600 plus</span>
-              <span aria-hidden="true">4,600+</span>
+              <span className="sr-only">2,400 plus</span>
+              <span aria-hidden="true">2,400+</span>
             </span>
             <span className="block max-w-[28ch] text-sm leading-snug text-subtle">
-              ADA digital accessibility lawsuits filed in 2023 alone
+              website accessibility lawsuits filed in federal court in 2024 <a href="https://www.adatitleiii.com/2025/04/federal-court-website-accessibility-lawsuit-filings-continue-to-decrease-in-2024/" className="underline underline-offset-[3px]">Seyfarth Shaw</a>.
             </span>
           </div>
           <div
@@ -71,7 +71,7 @@ export function Hero() {
               Title III
             </span>
             <span className="block max-w-[28ch] text-sm leading-snug text-subtle">
-              ADA applies to your clinic&apos;s website right now
+              of the ADA requires businesses open to the public to make their websites accessible to people with disabilities.
             </span>
           </div>
         </div>

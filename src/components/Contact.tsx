@@ -21,7 +21,7 @@ export function Contact() {
           </h2>
           <p className="mb-4 max-w-[65ch] text-subtle">
             I offer a complimentary accessibility audit to a limited number of
-            healthcare clinics each month. We'll walk through your top findings together on a 20 minute call. 
+            healthcare clinics each month. We&apos;ll walk through your top findings together on a 20 minute call. 
             No cost, no obligation.
           </p>
           <div className="mt-8 border-t border-border pt-6">
